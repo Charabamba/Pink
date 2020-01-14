@@ -1,0 +1,173 @@
+body {
+  background-color: lightblue;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+h2,
+h3 {
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+.page-wrapper {
+  background-color: lightyellow;
+  margin: 0 auto;
+  width: 320px;
+}
+.page-main {
+  overflow: hidden;
+}
+
+.page-header {
+  background-color: #283645;
+  height: 730px;
+  color: white;
+  .header-background {
+    background-image: url(../img/iphone-5-in-hand-png.png);
+    height: 460px;
+    min-width: 100%;
+  }
+  .nav-toggler {
+    height: 25px;
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    background-color: #1d2631;
+    .toggler-button {
+      background-color: #1d2631;
+      color: whitesmoke;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .main-nav-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    .main-nav-item {
+      padding: 25px;
+      text-align: center;
+      border-bottom: 1px solid white;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.download-app {
+  height: 276px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1d2631;
+  .download-button {
+    margin-top: 28px;
+    color: white;
+    font-weight: bold;
+    width: 280px;
+    height: 55px;
+    background-color: #1d2631;
+    border: 3px solid white;
+    border-radius: 25px;
+  }
+  .download-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+  .download-info {
+    margin-top: 25px;
+    font-weight: lighter;
+  }
+}
+
+.about-title {
+  margin: 0;
+  padding: 0;
+  height: 247px;
+  background-color: white;
+  .title-item {
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+.about-title::after {
+  margin-top: 30px;
+  content: "";
+  display: block;
+  height: 30px;
+  background: linear-gradient(to right bottom, white 49%, #f2f2f2 51%);
+}
+
+.about-items {
+  background-color: #f2f2f2;
+  height: 750px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .about-item {
+    padding-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .about-item-image {
+    margin-top: 40px;
+  }
+}
+
+.review {
+  background-color: white;
+  width: 960px;
+  display: flex;
+  height: 350px;
+  .review-wrapper {
+    padding: 45px 10px 30px;
+    text-align: center;
+    .review-content {
+      line-height: 2;
+    }
+  }
+}
+
+.contacts::before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 100%;
+  background: linear-gradient(to right bottom, white 49%, #f2f2f2 51%);
+}
+
+.contacts {
+  background-color: #f2f2f2;
+  text-align: center;
+  .contacts-wrapper {
+    padding: 0px 30px;
+  }
+  .contacts-header {
+    font-weight: lighter;
+    font-size: 24px;
+  }
+  .contacts-href {
+    font-size: 24px;
+    color: tomato;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .contacts-map {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+}

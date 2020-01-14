@@ -1,0 +1,115 @@
+.contacts::before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 100%;
+  background: linear-gradient(to right bottom, white 49%, #f2f2f2 51%);
+}
+
+.contacts {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.contacts-wrapper {
+  padding: 0px 30px;
+}
+.contacts-header {
+  font-weight: lighter;
+  font-size: 24px;
+}
+.contacts-href {
+  font-size: 24px;
+  color: #d22856;
+  display: block;
+  font-weight: lighter;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+.contacts-map {
+  height: 200px;
+}
+.page-footer {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .contacts-header {
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  .contacts-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contacts-item {
+    width: 280px;
+    padding-bottom: 35px;
+  }
+  .contacts::before {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to right bottom, white 49%, #f2f2f2 51%);
+  }
+  .contacts-map {
+    height: 370px;
+  }
+  .page-footer {
+    background-color: white;
+    display: block;
+    height: 125px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .footer-container {
+    display: flex;
+    width: 180px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-container {
+    height: 50px;
+    width: 50px;
+    border: 3px solid #e9ebec;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-container:hover {
+    border: 3px solid black;
+  }
+  .logo-container:active {
+    border: 3px solid white;
+  }
+  .footer-text {
+    padding-left: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .contacts::before {
+    content: "";
+    display: block;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to right bottom, white 49%, #f2f2f2 51%);
+  }
+
+  .contacts-map {
+    height: 500px;
+  }
+  .footer-inner {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
