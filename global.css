@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=global.css.map */
