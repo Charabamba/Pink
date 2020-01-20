@@ -1,24 +1,18 @@
 body {
   background-color: grey;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+}
 
 p {
-  margin: 0; }
+  margin: 0;
+}
 
 .hidden {
-  display: none; }
+  display: none;
+}
 
 .page-wrapper {
   margin: 0 auto;
-  width: 320px; }
-
-@media (min-width: 700px) {
-  .page-wrapper {
-    width: 700px;
-    margin: 0 auto; } }
-
-@media (min-width: 1200px) {
-  .page-wrapper {
-    width: 1200px; } }
+}
 
 /*# sourceMappingURL=global.css.map */
